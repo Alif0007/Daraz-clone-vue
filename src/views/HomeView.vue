@@ -11,15 +11,89 @@ import Category from "@/components/Category.vue";
         <Header />
       </div>
       <div class="pt-28 flex max-w-6xl mx-auto gap-4">
-        <div class="w-1/4">
-          <div class="bg-white pl-4 py-6 rounded-xl">
+        <div class="w-1/5">
+          <div class="relative bg-white pl-4 py-6 rounded-xl">
             <Category />
           </div>
         </div>
 
-        <div class="w-3/4 rounded-xl">
+        <div class="w-4/5">
           <Slider />
         </div>
+      </div>
+      <div>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
+        <p>ssss</p>
       </div>
     </div>
   </main>

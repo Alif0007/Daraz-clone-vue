@@ -4,6 +4,7 @@
     :slides-per-view="1"
     :space-between="0"
     navigation
+    autoplay=""
     :pagination="{ clickable: true }"
   >
     <swiper-slide
@@ -58,7 +59,13 @@
 </template>
 <script setup>
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
 
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from "swiper/vue";
@@ -69,7 +76,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-const modules = [Navigation, Pagination, Scrollbar, A11y];
+const modules = [Navigation, Pagination, Scrollbar, A11y, Autoplay];
 </script>
 <style>
 .sliderStyle {
