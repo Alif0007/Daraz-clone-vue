@@ -1,0 +1,64 @@
+<script></script>
+
+<template>
+  <div class="rounded-lg mt-8">
+    <div class="flex service-bg-color py-2 mt-6 rounded-xl">
+      <div class="flex items-center gap-2 px-4 border-r border-gray-400">
+        <img class="h-6" src="../assets/Service-icon/shield.png" alt="" />
+        <p class="text-lg">Safe Payment</p>
+      </div>
+      <div class="flex items-center gap-2 px-4 border-r border-gray-400">
+        <img
+          class="h-6"
+          src="../assets/Service-icon/fast-delivery.png"
+          alt=""
+        />
+        <p class="text-lg">Nationwide Delivery</p>
+      </div>
+      <div class="flex items-center gap-2 px-4 border-r border-gray-400">
+        <img class="h-6" src="../assets/Service-icon/turn-back.png" alt="" />
+        <p class="text-lg">Free & Easy Return</p>
+      </div>
+      <div class="flex items-center gap-2 px-4 border-r border-gray-400">
+        <img class="h-6" src="../assets/Service-icon/tag.png" alt="" />
+        <p class="text-lg">Best Price Guaranteed</p>
+      </div>
+      <div class="flex items-center gap-2 px-4 border-r">
+        <img class="h-6" src="../assets/Service-icon/authenticity.png" alt="" />
+        <p class="text-lg">100% Authentic Products</p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style>
+.service-bg-color {
+  background-color: rgba(248, 146, 83, 0.1);
+}
+.service-bg-color:hover {
+  background-color: rgba(248, 146, 83, 0.2);
+}
+.p-2 p {
+  text-align: center;
+}
+.p-2:hover {
+  color: #f85606;
+}
+.p-2 {
+  position: relative;
+  cursor: pointer;
+}
+.p-2::after {
+  position: absolute;
+  content: "";
+  height: 50px;
+  width: 1px;
+  background-color: rgb(182, 177, 177);
+  right: -5px;
+  top: 45%;
+  transform: translateY(-50%);
+}
+.p-2:last-child::after {
+  display: none;
+}
+</style>

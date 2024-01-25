@@ -2,6 +2,11 @@
 import Header from "@/components/Header.vue";
 import Slider from "@/components/Slider.vue";
 import Category from "@/components/Category.vue";
+import ServiceRow from "@/components/ServiceRow.vue";
+import Channel from "@/components/Channel.vue";
+import FlashSale from "@/components/FlashSale.vue";
+
+// import ChannelContainer from "../components/ChannelContainer.vue";
 </script>
 
 <template>
@@ -10,7 +15,7 @@ import Category from "@/components/Category.vue";
       <div>
         <Header />
       </div>
-      <div class="pt-28 flex max-w-6xl mx-auto gap-4">
+      <div class="pt-28 flex max-w-7xl mx-auto gap-4">
         <div class="w-1/5">
           <div class="relative bg-white pl-4 py-6 rounded-xl">
             <Category />
@@ -21,79 +26,13 @@ import Category from "@/components/Category.vue";
           <Slider />
         </div>
       </div>
-      <div>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
-        <p>ssss</p>
+      <div class="max-w-7xl mx-auto">
+        <ServiceRow />
+        <Channel />
+      </div>
+
+      <div class="max-w-7xl mx-auto">
+        <FlashSale />
       </div>
     </div>
   </main>

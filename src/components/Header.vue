@@ -1,13 +1,13 @@
 <script></script>
 
 <template>
-  <div class="fixed bg-orange w-full">
-    <div class="flex text-white max-w-6xl mx-auto gap-8 text-xs">
+  <div class="fixed bg-orange w-full z-10">
+    <div class="flex text-white max-w-7xl mx-auto gap-8 text-xs">
       <p>Become a Seller</p>
       <p>Daraz Donate</p>
       <p>Help & Support</p>
     </div>
-    <div class="flex justify-between max-w-6xl mx-auto py-4">
+    <div class="flex justify-between max-w-7xl mx-auto py-4">
       <div class="flex items-center gap-6">
         <img
           class="h-12"
