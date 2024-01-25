@@ -5,6 +5,8 @@ import Category from "@/components/Category.vue";
 import ServiceRow from "@/components/ServiceRow.vue";
 import Channel from "@/components/Channel.vue";
 import FlashSale from "@/components/FlashSale.vue";
+import CategoryContainer from "@/components/CategoryContainer.vue";
+import JustForYouContainer from "@/components/JustForYouContainer.vue";
 
 // import ChannelContainer from "../components/ChannelContainer.vue";
 </script>
@@ -33,6 +35,19 @@ import FlashSale from "@/components/FlashSale.vue";
 
       <div class="max-w-7xl mx-auto">
         <FlashSale />
+      </div>
+      <div class="max-w-7xl mx-auto">
+        <CategoryContainer />
+      </div>
+      <div class="max-w-7xl mx-auto">
+        <JustForYouContainer />
+        <div class="flex justify-center mt-8 cursor-pointer">
+          <p
+            class="px-36 py-1 text-orange text-2xl text-center border-2 border-yellow-500"
+          >
+            Load More
+          </p>
+        </div>
       </div>
     </div>
   </main>

@@ -4,7 +4,7 @@ import FlashSaleCard from "@/components/FlashSaleCard.vue";
 
 <template>
   <div>
-    <h1 class="text-2xl text-gray-500">Flash Sale</h1>
+    <h1 class="text-2xl text-gray-500 mt-8 mb-2">Flash Sale</h1>
     <div class="bg-white">
       <div class="flex justify-between items-center mb-4 pt-2">
         <p class="text-lg text-orange ml-8">On Sale Now</p>
@@ -55,7 +55,7 @@ import FlashSaleCard from "@/components/FlashSaleCard.vue";
         ImgUrl="https://static-01.daraz.com.bd/p/21c8a8b8f55a7c6d81f0b8490319e5f9.jpg"
         title="Joya Sanitary Napkin -Belt System "
         price="102"
-        PreviousPrice="11o"
+        PreviousPrice="110"
         Discount="-7%"
       />
     </div>

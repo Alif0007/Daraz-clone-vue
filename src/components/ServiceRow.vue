@@ -3,11 +3,11 @@
 <template>
   <div class="rounded-lg mt-8">
     <div class="flex service-bg-color py-2 mt-6 rounded-xl">
-      <div class="flex items-center gap-2 px-4 border-r border-gray-400">
+      <div class="flex items-center gap-2 px-8 border-r border-gray-400">
         <img class="h-6" src="../assets/Service-icon/shield.png" alt="" />
         <p class="text-lg">Safe Payment</p>
       </div>
-      <div class="flex items-center gap-2 px-4 border-r border-gray-400">
+      <div class="flex items-center gap-2 px-8 border-r border-gray-400">
         <img
           class="h-6"
           src="../assets/Service-icon/fast-delivery.png"
@@ -15,15 +15,15 @@
         />
         <p class="text-lg">Nationwide Delivery</p>
       </div>
-      <div class="flex items-center gap-2 px-4 border-r border-gray-400">
+      <div class="flex items-center gap-2 px-8 border-r border-gray-400">
         <img class="h-6" src="../assets/Service-icon/turn-back.png" alt="" />
         <p class="text-lg">Free & Easy Return</p>
       </div>
-      <div class="flex items-center gap-2 px-4 border-r border-gray-400">
+      <div class="flex items-center gap-2 px-8 border-r border-gray-400">
         <img class="h-6" src="../assets/Service-icon/tag.png" alt="" />
         <p class="text-lg">Best Price Guaranteed</p>
       </div>
-      <div class="flex items-center gap-2 px-4 border-r">
+      <div class="flex items-center gap-2 px-8 border-r">
         <img class="h-6" src="../assets/Service-icon/authenticity.png" alt="" />
         <p class="text-lg">100% Authentic Products</p>
       </div>
