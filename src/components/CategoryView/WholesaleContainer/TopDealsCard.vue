@@ -5,9 +5,14 @@ const props = defineProps(["title", "imgUrl", "price", "previousPrice"]);
 <template>
   <div>
     <div>
-      <div class="pl-2 pb-4">
-        <div class="">
-          <img class="h-48 w-full top-card-image" :src="imgUrl" alt="" />
+      <div class="cursor-pointer pl-2 pb-4 top-deal-card">
+        <div class="relative">
+          <img
+            class="card-overlay h-48 w-full top-card-image"
+            :src="imgUrl"
+            alt=""
+          />
+          <div class="text-3xl font-bold absolute BG"></div>
         </div>
         <p class="text-lg pl-2">{{ title }}</p>
         <div class="flex items-baseline pl-2">
@@ -25,4 +30,15 @@ const props = defineProps(["title", "imgUrl", "price", "previousPrice"]);
   </div>
 </template>
 
-<style></style>
+<style>
+.BG {
+  top: 0;
+  background-color: rgb(0, 0, 0, 0.1);
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.top-deal-card:hover .BG {
+  display: block;
+}
+</style>

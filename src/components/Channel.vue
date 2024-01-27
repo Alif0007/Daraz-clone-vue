@@ -1,9 +1,22 @@
 <script setup>
 import ChannelCard from "@/components/ChannelCard.vue";
+import { useRouter } from "vue-router";
+
+const router = useRouter();
+
+function catWholeSale() {
+  console.log("click");
+  router.push({
+    path: "/cat-wholesale",
+  });
+}
 </script>
 
 <template>
-  <div class="flex gap-4 rounded-lg mt-8 bg-white px-4 pt-2">
+  <div
+    class="flex gap-4 rounded-lg mt-8 bg-white px-4 pt-2"
+    @click="catWholeSale"
+  >
     <ChannelCard
       ImgUrl="https://icms-image.slatic.net/images/ims-web/b74326bc-4c58-4ebf-9220-6b5619ffc73b.png"
       title="Wholesale Price"
