@@ -1,4 +1,17 @@
-<script></script>
+<script setup>
+import { ref } from 'vue';
+import { useRouter } from 'vue-router';
+
+const router=useRouter()
+
+function homeRoute(){
+  router.push({
+    path: '/',
+  })
+}
+
+
+</script>
 
 <template>
   <div class="fixed bg-orange w-full z-10">
@@ -9,11 +22,14 @@
     </div>
     <div class="flex justify-between max-w-7xl mx-auto py-4">
       <div class="flex items-center gap-6">
-        <img
-          class="h-12"
-          src="https://icms-image.slatic.net/images/ims-web/3ac46ea5-a376-41cc-981f-21fa690468c0.png"
-          alt=""
-        />
+        <div @click="homeRoute" class="cursor-pointer">
+
+          <img
+            class="h-12"
+            src="https://icms-image.slatic.net/images/ims-web/3ac46ea5-a376-41cc-981f-21fa690468c0.png"
+            alt=""
+          />
+        </div>
         <input
           class="pl-6 width-search-bar rounded-xl"
           type="text"
