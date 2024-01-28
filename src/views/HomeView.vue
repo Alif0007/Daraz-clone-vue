@@ -41,9 +41,9 @@ import JustForYouContainer from "@/components/JustForYouContainer.vue";
       </div>
       <div class="max-w-7xl mx-auto">
         <JustForYouContainer />
-        <div class="flex justify-center mt-8 cursor-pointer">
+        <div class="flex justify-center mt-8 ">
           <p
-            class="px-36 py-1 text-orange text-2xl text-center border-2 border-yellow-500"
+            class="cursor-pointer px-36 py-1 text-orange text-2xl text-center border-2 border-yellow-500"
           >
             Load More
           </p>
