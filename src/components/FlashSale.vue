@@ -7,7 +7,14 @@ import FlashSaleCard from "@/components/FlashSaleCard.vue";
     <h1 class="text-2xl text-gray-500 mt-8 mb-2">Flash Sale</h1>
     <div class="bg-white">
       <div class="flex justify-between items-center mb-4 pt-2">
-        <p class="text-lg text-orange ml-8">On Sale Now</p>
+        <div class="flex items-center gap-2">
+          <p class="text-lg text-orange ml-8">On Sale Now</p>
+          <vue-countdown class="flex gap-4" :time="2 * 24 * 60 * 60 * 1000" v-slot="{ days, hours, minutes, seconds }">
+            <div class="bg-orange w-10 px-3 py-3 text-white">{{ hours }}</div>
+            <div class="bg-orange w-10 px-3 py-3 text-white">{{ minutes }}</div>
+            <div class="bg-orange w-10 px-3 py-3 text-white">{{ seconds }}</div>
+          </vue-countdown>
+        </div>
         <p class="px-4 py-2 border border-yellow-600 text-xl text-orange mr-4">
           Shop More
         </p>

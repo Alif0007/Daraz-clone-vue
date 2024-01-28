@@ -1,10 +1,24 @@
 <script setup>
+
+import { useRouter } from 'vue-router';
+
+const router = useRouter()
+
+function productView(){
+  router.push({
+    path: '/product-view',
+  })
+  console.log('click')
+}
+
+
+
 const props = defineProps(["title", "imgUrl", "price", "previousPrice"]);
 </script>
 
 <template>
   <div>
-    <div>
+    <div @click="productView">
       <div class="cursor-pointer pl-2 pb-4 top-deal-card">
         <div class="relative">
           <img

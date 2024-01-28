@@ -1,4 +1,17 @@
 <script setup>
+
+import { useRouter } from 'vue-router';
+
+const router = useRouter()
+
+function productView(){
+  router.push({
+    path: '/product-view',
+  })
+  console.log('click')
+}
+
+
 const props = defineProps([
   "title",
   "ImgUrl",
@@ -9,7 +22,7 @@ const props = defineProps([
 </script>
 
 <template>
-  <div>
+  <div @click="productView">
     <div class="flash-card pl-2 pb-4">
       <img class="h-44 w-44" :src="ImgUrl" alt="" />
       <p class="text-lg">{{ title }}</p>

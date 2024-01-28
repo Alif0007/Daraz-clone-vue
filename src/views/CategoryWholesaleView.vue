@@ -16,7 +16,7 @@ function setTabItem(name) {
 </script>
 
 <template>
-  <div>
+  <div class="bg-white">
     <div class="pb-28">
       <Header />
     </div>

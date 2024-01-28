@@ -2,7 +2,7 @@
 
 <template>
   <div class="flex gap-4 rounded-lg mt-8 bg-white">
-    <div class="p-2 flex">
+    <div class="p-2  flex">
       <div>
         <img
           class="h-24 mb-2"
@@ -12,7 +12,7 @@
         <p>Wholesale Price</p>
       </div>
     </div>
-    <div class="p-2">
+    <div class="p-2 channel-style">
       <img
         class="h-24 mb-2"
         src="https://icms-image.slatic.net/images/ims-web/1bcd72dd-8bbb-4893-b346-6ed9fe7233f9.png"
@@ -20,7 +20,7 @@
       />
       <p>Everyday Low Price</p>
     </div>
-    <div class="p-2">
+    <div class="p-2 channel-style">
       <img
         class="h-24 mb-2"
         src="https://icms-image.slatic.net/images/ims-web/6487b832-3919-4bd1-b467-d0aa2e9cfa22.png"
@@ -28,7 +28,7 @@
       />
       <p>Fashion</p>
     </div>
-    <div class="p-2">
+    <div class="p-2 channel-style">
       <img
         class="h-24 mb-2"
         src="https://icms-image.slatic.net/images/ims-web/4f2f87dc-6797-4825-9293-cfc9431fe304.png"
@@ -36,7 +36,7 @@
       />
       <p>Beauty & Glamour</p>
     </div>
-    <div class="p-2">
+    <div class="p-2 channel-style">
       <img
         class="h-24 mb-2"
         src="https://icms-image.slatic.net/images/ims-web/0ec06ff7-4a45-44c4-b8f5-ee3d1fb7d78e.png"
@@ -44,7 +44,7 @@
       />
       <p>Mart</p>
     </div>
-    <div class="p-2">
+    <div class="p-2 channel-style">
       <img
         class="h-24 mb-2"
         src="https://icms-image.slatic.net/images/ims-web/98e538ca-57b3-45c6-8824-16e029e45d38.png"
@@ -52,7 +52,7 @@
       />
       <p>Home Makeover</p>
     </div>
-    <div class="p-2">
+    <div class="p-2 channel-style">
       <img
         class="h-24 mb-2"
         src="https://icms-image.slatic.net/images/ims-web/bba7d001-4a00-4d39-8785-e86fb6bbb7d7.png"
@@ -60,7 +60,7 @@
       />
       <p>Free Delivery</p>
     </div>
-    <div class="p-2">
+    <div class="p-2 channel-style">
       <img
         class="h-24 mb-2"
         src="https://icms-image.slatic.net/images/ims-web/439492ee-8936-40f8-978b-2c5869465e19.png"
@@ -68,7 +68,7 @@
       />
       <p>Best Price</p>
     </div>
-    <div class="p-2">
+    <div class="p-2 channel-style">
       <img
         class="h-24 mb-2"
         src="https://icms-image.slatic.net/images/ims-web/e6e3b765-a1c1-4c5f-961a-c5ce80d8ba3b.png"
@@ -79,4 +79,29 @@
   </div>
 </template>
 
-<style></style>
+<style>
+
+.channel-style p {
+  text-align: center;
+}
+.channel-style:hover {
+  color: #f85606;
+}
+.channel-style {
+  position: relative;
+  cursor: pointer;
+}
+.channel-style::after {
+  position: absolute;
+  content: "";
+  height: 50px;
+  width: 1px;
+  background-color: rgb(182, 177, 177);
+  right: -5px;
+  top: 45%;
+  transform: translateY(-50%);
+}
+.channel-style:last-child::after {
+  display: none;
+}
+</style>

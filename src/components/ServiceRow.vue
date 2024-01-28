@@ -38,27 +38,4 @@
 .service-bg-color:hover {
   background-color: rgba(248, 146, 83, 0.2);
 }
-.p-2 p {
-  text-align: center;
-}
-.p-2:hover {
-  color: #f85606;
-}
-.p-2 {
-  position: relative;
-  cursor: pointer;
-}
-.p-2::after {
-  position: absolute;
-  content: "";
-  height: 50px;
-  width: 1px;
-  background-color: rgb(182, 177, 177);
-  right: -5px;
-  top: 45%;
-  transform: translateY(-50%);
-}
-.p-2:last-child::after {
-  display: none;
-}
 </style>
