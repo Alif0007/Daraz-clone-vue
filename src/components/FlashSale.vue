@@ -1,5 +1,17 @@
 <script setup>
 import FlashSaleCard from "@/components/FlashSaleCard.vue";
+
+import { useRouter } from "vue-router";
+const router = useRouter()
+
+function shopFlash(){
+  router.push({
+    path: '/flash-sale-view',
+  })
+}
+
+
+
 </script>
 
 <template>
@@ -15,7 +27,7 @@ import FlashSaleCard from "@/components/FlashSaleCard.vue";
             <div class="bg-orange w-10 px-3 py-3 text-white">{{ seconds }}</div>
           </vue-countdown>
         </div>
-        <p class="px-4 py-2 border border-yellow-600 text-xl text-orange mr-4">
+        <p @click="shopFlash" class="cursor-pointer px-4 py-2 border border-yellow-600 text-xl text-orange mr-4">
           Shop More
         </p>
       </div>

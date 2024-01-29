@@ -7,6 +7,7 @@ import Header from '@/components/Header.vue';
 
 import { ref } from "vue";
 
+
 const allTab = ref("allTab");
 const essentialTab = ref("essentialTab");
 const fashionTab = ref("fashionTab");
@@ -84,7 +85,7 @@ function tab(id) {
 </template>
 
 
-<style>
+<style scoped>
 .flash-active {
 border-bottom: 4px solid orange;
 color: orange;

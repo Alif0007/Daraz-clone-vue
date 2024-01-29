@@ -31,13 +31,13 @@ function homeRoute(){
           />
         </div>
         <input
-          class="pl-6 width-search-bar rounded-xl"
+          class="outline-0 pl-6 width-search-bar rounded-xl"
           type="text"
           placeholder="Search In Daraz"
         />
       </div>
       <div class="flex text-white gap-4">
-        <div class="flex items-center gap-1">
+        <div class="flex items-center gap-1 px-2 login-style">
           <ion-icon class="text-lg" name="person-outline"></ion-icon>
           <p class="text-xs font-bold">Login</p>
         </div>
@@ -58,3 +58,12 @@ function homeRoute(){
     </div>
   </div>
 </template>
+
+<style>
+.login-style:hover {
+  background-color: rgb(0, 0, 0,0.1);
+  border-radius: 10px;
+  cursor:pointer;
+
+}
+</style>

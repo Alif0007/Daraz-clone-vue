@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import CategoryWholesaleView from '../views/CategoryWholesaleView.vue'
 import ProductView from '../views/ProductView.vue'
 import FlashSaleView from '../views/FlashSaleView.vue'
+import LoginView from '../views/LoginView.vue'
 
 
 const router = createRouter({
@@ -27,6 +28,11 @@ const router = createRouter({
       path: '/flash-sale-view',
       name: 'Flash Sale View',
       component: FlashSaleView
+    },
+    {
+      path: '/login',
+      name: 'Login View',
+      component: LoginView
     },
 
   ]
