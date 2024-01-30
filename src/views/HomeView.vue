@@ -66,4 +66,6 @@ import InfoContainer from "@/components/InfoContainer.vue";
 .text-orange {
   color: #f85606;
 }
+
+
 </style>
