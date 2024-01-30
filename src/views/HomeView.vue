@@ -7,8 +7,8 @@ import Channel from "@/components/Channel.vue";
 import FlashSale from "@/components/FlashSale.vue";
 import CategoryContainer from "@/components/CategoryContainer.vue";
 import JustForYouContainer from "@/components/JustForYouContainer.vue";
+import InfoContainer from "@/components/InfoContainer.vue";
 
-// import ChannelContainer from "../components/ChannelContainer.vue";
 </script>
 
 <template>
@@ -49,9 +49,9 @@ import JustForYouContainer from "@/components/JustForYouContainer.vue";
           </p>
         </div>
       </div>
-      <!-- <div class="max-w-7xl mx-auto">
+      <div class="max-w-7xl mx-auto py-12 ">
         <InfoContainer />
-      </div> -->
+      </div>
     </div>
   </main>
 </template>

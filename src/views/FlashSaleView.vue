@@ -4,6 +4,7 @@ import EssentialTab from '@/components/CategoryView/WholesaleContainer/Essential
 import FashionTab from '@/components/CategoryView/WholesaleContainer/FashionTab.vue';
 import LifeStyleTab from '@/components/CategoryView/WholesaleContainer/LifeStyleTab.vue';
 import Header from '@/components/Header.vue';
+import InfoContainer from '@/components/InfoContainer.vue';
 
 import { ref } from "vue";
 
@@ -79,6 +80,9 @@ function tab(id) {
             </div>
 
         </div>
+    </div>
+    <div class="max-w-7xl mx-auto pt-24 pb-12">
+      <InfoContainer/>
     </div>
 </div>
 

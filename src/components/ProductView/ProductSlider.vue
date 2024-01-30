@@ -11,21 +11,20 @@
       :modules="modules"
       class="mySwiper2"
     >
-    <swiper-slide
-        ><img
-          src="https://nagadhat.com.bd/storage/media/products/images/1695208220_realman_150ml_mock_active_fop.jpg" /></swiper-slide
-      ><swiper-slide
-        ><img
-          src="https://i.ytimg.com/vi/JDZp6PryjAc/hqdefault.jpg" /></swiper-slide
-      >
-      ><swiper-slide
-        ><img
-          src="https://cdn.grofers.com/app/images/products/full_screen/pro_482731.jpg?ts=1685974109" /></swiper-slide
-      >
-      ><swiper-slide
-        ><img
-          src="https://rukminim2.flixcart.com/image/850/1000/xif0q/deodorant/m/v/i/200-attract-deodorant-strong-body-spray-long-lasting-fragrance-original-imagg8h6dzgrph7v.jpeg?q=20&crop=false" /></swiper-slide
-      >
+    <swiper-slide>
+      <VueMagnifier src="https://nagadhat.com.bd/storage/media/products/images/1695208220_realman_150ml_mock_active_fop.jpg" width="500" />
+    </swiper-slide>
+    <swiper-slide>
+      <VueMagnifier src="https://i.ytimg.com/vi/JDZp6PryjAc/hqdefault.jpg" width="500" />
+    </swiper-slide>
+    <swiper-slide>
+      <VueMagnifier src="https://cdn.grofers.com/app/images/products/full_screen/pro_482731.jpg?ts=1685974109" width="500" />
+    </swiper-slide>
+    <swiper-slide>
+      <VueMagnifier src="https://rukminim2.flixcart.com/image/850/1000/xif0q/deodorant/m/v/i/200-attract-deodorant-strong-body-spray-long-lasting-fragrance-original-imagg8h6dzgrph7v.jpeg?q=20&crop=false" width="500" />
+    </swiper-slide>
+        
+        
     </swiper>
     <swiper
       @swiper="setThumbsSwiper"
@@ -68,11 +67,15 @@
     
     // import required modules
     import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
+
+    import VueMagnifier from '@websitebeaver/vue-magnifier'
+    import '@websitebeaver/vue-magnifier/styles.css'
   
     export default {
       components: {
         Swiper,
         SwiperSlide,
+        VueMagnifier
       },
       setup() {
         const thumbsSwiper = ref(null);
