@@ -9,6 +9,11 @@ function homeRoute(){
     path: '/',
   })
 }
+function loginRoute(){
+  router.push({
+    path: '/login',
+  })
+}
 
 
 </script>
@@ -37,7 +42,7 @@ function homeRoute(){
         />
       </div>
       <div class="flex text-white gap-4">
-        <div class="flex items-center gap-1 px-2 login-style">
+        <div @click="loginRoute" class="flex items-center gap-1 px-2 login-style">
           <ion-icon class="text-lg" name="person-outline"></ion-icon>
           <p class="text-xs font-bold">Login</p>
         </div>

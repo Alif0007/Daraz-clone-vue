@@ -2,10 +2,18 @@
 import ProductSlider from "./ProductSlider.vue"
 import ReviewsCard from './ReviewsCard.vue';
 import { ref } from 'vue';
+import { useRouter } from "vue-router";
 
 
 
 const Quantity = ref(1)
+const router = useRouter()
+
+function AddToCart() {
+  router.push({
+    path: '/add-cart',
+  })
+}
 
 function increase(){
 Quantity.value++
@@ -60,7 +68,7 @@ Quantity.value--
                 </div>
                 <div class="flex gap-2 mt-6">
                     <p class="cursor-pointer px-20 py-3 font-medium text-white bg-blue-500 hover:bg-blue-400 rounded-sm text-lg">Buy Now</p>
-                    <p class="cursor-pointer px-20 py-3 font-medium text-white bg-orange hover:bg-yellow-500 rounded-sm text-lg">Add To Cart</p>
+                    <p @click="AddToCart" class="cursor-pointer px-20 py-3 font-medium text-white bg-orange hover:bg-yellow-500 rounded-sm text-lg">Add To Cart</p>
                 </div>
                     
                 </div>
