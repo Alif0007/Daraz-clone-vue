@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="flex">
+  <div class="grid grid-cols-1 sm:flex">
     <div class="pr-20">
       <div>
         <h1 class="text-orange text-2xl mb-4">Customer Care</h1>
@@ -96,11 +96,11 @@
       <div>
         <h1 class="text-orange text-2xl mb-4 mt-2">Follow Us</h1>
         <div class="flex gap-3">
-          <img class="h-10" src="E:\Vue Templates\Daraz\src\assets\facebook.png" alt="">
-          <img class="h-10" src="E:\Vue Templates\Daraz\src\assets\Footer\worldwide-shipping.png" alt="">
-          <img class="h-10" src="E:\Vue Templates\Daraz\src\assets\Footer\youtube.png" alt="">
-          <img class="h-10" src="E:\Vue Templates\Daraz\src\assets\Footer\twitter.png" alt="">
-          <img class="h-10" src="E:\Vue Templates\Daraz\src\assets\Footer\instagram.png" alt="">
+          <img class="h-9" src="E:\Vue Templates\Daraz\src\assets\facebook.png" alt="">
+          <img class="h-9" src="E:\Vue Templates\Daraz\src\assets\Footer\worldwide-shipping.png" alt="">
+          <img class="h-9" src="E:\Vue Templates\Daraz\src\assets\Footer\youtube.png" alt="">
+          <img class="h-9" src="E:\Vue Templates\Daraz\src\assets\Footer\twitter.png" alt="">
+          <img class="h-9" src="E:\Vue Templates\Daraz\src\assets\Footer\instagram.png" alt="">
         </div>
       </div>
     </div>

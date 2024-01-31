@@ -34,7 +34,7 @@ function shopFlash(){
       <hr />
     </div>
 
-    <div class="flex gap-4 bg-white pb-4 pt-2">
+    <div class="grid grid-cols-2 sm:flex gap-4 bg-white pb-4 pt-2">
       <FlashSaleCard
         ImgUrl="https://static-01.daraz.com.bd/p/eecdf4c096e51fec5ea0cae8e5184b8c.jpg"
         title="ACME Premium Gold Tea 400gm"

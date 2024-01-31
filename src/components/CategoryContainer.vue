@@ -6,7 +6,7 @@ import CategoryContainerCard from "./CategoryContainerCard.vue";
   <div>
     <h1 class="text-2xl text-gray-700 mt-10 mb-2">Category</h1>
     <div>
-      <div class="grid grid-cols-8">
+      <div class="grid grid-cols-3 md:grid-cols-8">
         <CategoryContainerCard
           Imgurl="https://static-01.daraz.com.bd/p/9e82a2f43c00f55e9fd062ff87785dc4.jpg"
           title="Black Tea"
@@ -40,7 +40,7 @@ import CategoryContainerCard from "./CategoryContainerCard.vue";
           title="Calendars"
         />
       </div>
-      <div class="grid grid-cols-8">
+      <div class="grid grid-cols-3 md:grid-cols-8">
         <CategoryContainerCard
           Imgurl="https://static-01.daraz.com.bd/p/7410dbf45043f6659620c5be7c7de069.png"
           title="Rice"

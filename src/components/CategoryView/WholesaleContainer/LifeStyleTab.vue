@@ -4,7 +4,7 @@ import JustForYouContainerCard from "@/components/JustForYouContainerCard.vue";
 
 <template>
   <div>
-    <div class="grid grid-cols-5 gap-4 mb-4">
+    <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 mb-4">
       <JustForYouContainerCard
         ImgUrl="https://static-01.daraz.com.bd/p/1e0019ca86de22f8db12a8f6aa29d8b2.jpg_460x460q75.jpg_.webp"
         title="Comforter King Size 86x84 inch (+-2inc)"
@@ -46,7 +46,7 @@ import JustForYouContainerCard from "@/components/JustForYouContainerCard.vue";
         reviews="63"
       />
     </div>
-    <div class="grid grid-cols-5 gap-4 mb-4">
+    <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 mb-4">
       <JustForYouContainerCard
         ImgUrl="https://static-01.daraz.com.bd/p/d39960d885289e999f144dff1d0aa7d0.jpg_300x0q75.webp"
         title="iSafe First Aid Kit and Medicines Storage Box"
@@ -88,7 +88,7 @@ import JustForYouContainerCard from "@/components/JustForYouContainerCard.vue";
         reviews="385"
       />
     </div>
-    <div class="grid grid-cols-5 gap-4 mb-4">
+    <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 mb-4">
       <JustForYouContainerCard
         ImgUrl="https://static-01.daraz.com.bd/p/d93db584337fd4b8e5133f822bd1023c.jpg_460x460q75.jpg_.webp"
         title="Cotton King Size Bed Sheet With Two Pillow"

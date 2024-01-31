@@ -9,7 +9,7 @@ import ProductCard from "@/components/ProductView/ProductCard.vue"
     <div>
         <Header/>
     </div>
-    <div class="pt-32 max-w-7xl mx-auto">
+    <div class="pt-32 max-w-6xl mx-auto">
         <ProductCard/>
     </div>
 </div>

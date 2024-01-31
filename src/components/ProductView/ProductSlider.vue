@@ -116,11 +116,6 @@
   object-fit: cover;
 }
 
-body {
-  background: #000;
-  color: #000;
-}
-
 .swiper {
   width: 100%;
   height: 350px !important;

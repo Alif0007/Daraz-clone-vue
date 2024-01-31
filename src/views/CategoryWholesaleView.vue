@@ -21,13 +21,13 @@ function setTabItem(name) {
     <div class="pb-28">
       <Header />
     </div>
-    <div class="max-w-7xl mx-auto">
+    <div class="max-w-6xl mx-auto">
       <TopDealsContainer />
     </div>
-    <div class="max-w-7xl mx-auto">
+    <div class="max-w-6xl mx-auto">
       <WholesaleTabMenu @emit-tab-item="setTabItem" />
     </div>
-    <div class="max-w-7xl mx-auto">
+    <div class="max-w-6xl mx-auto">
       <div v-if="tabname == 'allTab'">
         <h1 class="text-3xl font-semibold mb-2 ml-4 mb-8 mt-4">All</h1>
 
@@ -49,7 +49,7 @@ function setTabItem(name) {
         <LifeStyleTab />
       </div>
     </div>
-    <div class="max-w-7xl mx-auto pt-24 pb-12">
+    <div class="max-w-6xl mx-auto pt-24 pb-12">
       <InfoContainer/>
     </div>
   </div>

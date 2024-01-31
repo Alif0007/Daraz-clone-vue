@@ -6,7 +6,7 @@ import JustForYouContainerCard from "./JustForYouContainerCard.vue";
   <div>
     <h1 class="text-2xl text-gray-700 mt-10 mb-2">Just For You</h1>
 
-    <div class="grid grid-cols-6 gap-4 mb-8">
+    <div class="grid grid-cols-2 sm:grid-cols-6 gap-4 mb-8">
       <JustForYouContainerCard
         ImgUrl="https://static-01.daraz.com.bd/p/3005d262600dc03beb2b0adc6e909e63.jpg_400x400q75-product.jpg_.webp"
         title="New Collection Better Choice Stylish"
@@ -56,7 +56,7 @@ import JustForYouContainerCard from "./JustForYouContainerCard.vue";
         reviews="8"
       />
     </div>
-    <div class="grid grid-cols-6 gap-4 mb-8">
+    <div class="grid grid-cols-2 sm:grid-cols-6 gap-4 mb-8">
       <JustForYouContainerCard
         ImgUrl="https://static-01.daraz.com.bd/p/9c1cbff587e752f586226ea02836ce90.jpg_400x400q75-product.jpg_.webp"
         title="Galaxy Pattern Wall Radium Sticker"
@@ -106,7 +106,7 @@ import JustForYouContainerCard from "./JustForYouContainerCard.vue";
         reviews="5"
       />
     </div>
-    <div class="grid grid-cols-6 gap-4 mb-8">
+    <div class="grid grid-cols-2 sm:grid-cols-6 gap-4 mb-8">
       <JustForYouContainerCard
         ImgUrl="https://static-01.daraz.com.bd/p/f346326944d8e920098c640d6a97e96f.jpg_400x400q75-product.jpg_.webp"
         title="Black Cotton Trendy Super Skinny Rib Trendy Jogger"
@@ -156,7 +156,7 @@ import JustForYouContainerCard from "./JustForYouContainerCard.vue";
         reviews="188"
       />
     </div>
-    <div class="grid grid-cols-6 gap-4">
+    <div class="grid grid-cols-2 sm:grid-cols-6 gap-4">
       <JustForYouContainerCard
         ImgUrl="https://static-01.daraz.com.bd/p/4180e5af94985d69a83ba5e814e232b2.png_400x400q75-product.jpg_.webp"
         title="Captivating and Fresh Rare Hybrid Black Rose"

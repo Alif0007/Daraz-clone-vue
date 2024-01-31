@@ -19,7 +19,7 @@ Quantity.value--
 </script>
 
 <template>
-<div class="mr-4">
+<div class=" mr-4">
     <div>
         <div class="bg-white mb-3 flex justify-between px-3 ">
             <p class="text-gray-600" >SELECT ALL (1 ITEMS)</p>
@@ -38,7 +38,7 @@ Quantity.value--
             </div>
             <hr>
             <div class="pt-4">
-                <div class="flex pb-8">
+                <div class="block sm:flex pb-8">
                     <img class="h-32" src="https://static-01.daraz.com.bd/p/8c9f724dd074da7b4869a5998df97d3d.jpg" alt="">
                     <div class="pl-3">
                         <h1 class="text-lg">

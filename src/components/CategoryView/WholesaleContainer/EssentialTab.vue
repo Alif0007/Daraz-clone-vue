@@ -4,7 +4,7 @@ import JustForYouContainerCard from "@/components/JustForYouContainerCard.vue";
 
 <template>
   <div>
-    <div class="grid grid-cols-5 gap-4 mb-4">
+    <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 mb-4">
       <JustForYouContainerCard
         ImgUrl="https://static-01.daraz.com.bd/p/fbc6cdbb1bfc337613e93ba6942747fc.jpg_300x0q75.webp"
         title="BIOAQUA Mask Activated Carbon Charcol Facewash"
@@ -41,7 +41,7 @@ import JustForYouContainerCard from "@/components/JustForYouContainerCard.vue";
         reviews="1999"
       />
     </div>
-    <div class="grid grid-cols-5 gap-4 mb-4">
+    <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 mb-4">
       <JustForYouContainerCard
         ImgUrl="https://static-01.daraz.com.bd/p/a03dd9de0d35327db5ba6f516bf41660.jpg_460x460q75.jpg_.webp"
         title="Yes Dishwash Liquid Lemon - 1 Ltr"
@@ -78,7 +78,7 @@ import JustForYouContainerCard from "@/components/JustForYouContainerCard.vue";
         reviews="104"
       />
     </div>
-    <div class="grid grid-cols-5 gap-4 mb-4">
+    <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 mb-4">
       <JustForYouContainerCard
         ImgUrl="https://static-01.daraz.com.bd/p/103d1d1a8fff1acf8dcb0dad2cf4f900.jpg_460x460q75.jpg_.webp"
         title="Amar Food Mustard Oil - 1liter"

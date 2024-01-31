@@ -42,7 +42,7 @@ function tab(id) {
         <img src="https://icms-image.slatic.net/images/ims-web/b1ce4321-9c38-4f4f-ba2d-95262eb7b1e9.jpg" alt="">
     </div>
     <div class="bg-white">
-        <div class="flex items-center gap-2 max-w-7xl mx-auto py-2 ">
+        <div class="flex items-center gap-2 max-w-6xl mx-auto py-2 ">
           <p class="text-lg text-orange ml-8">On Sale Now</p>
           <p class="text-lg  ml-8">Ends In</p>
           <vue-countdown class="flex gap-4" :time="2 * 24 * 60 * 60 * 1000" v-slot="{ days, hours, minutes, seconds }">
@@ -53,7 +53,7 @@ function tab(id) {
         </div>
     </div>
     <div class="bg-white my-3 py-2">
-        <div class="flex gap-10  max-w-5xl mx-auto">
+        <div class="grid grid-cols-4 sm:flex  gap-2 sm:gap-10  max-w-5xl mx-auto">
             <p @click="tab(1)" class="text-base  cursor-pointer" :class="activetab == 'allTab' ? 'flash-active': ''">All</p>
             <p @click="tab(2)" class="text-base   cursor-pointer" :class="activetab == 'fashionTab' ? 'flash-active': ''">Electronics</p>
             <p @click="tab(3)" class="text-base   cursor-pointer" :class="activetab == 'essentialTab' ? 'flash-active': ''">Health & Beauty</p>
@@ -65,7 +65,7 @@ function tab(id) {
         </div>
     </div>
     <div>
-        <div class="max-w-7xl mx-auto pb-8">
+        <div class="max-w-6xl mx-auto pb-8">
             <div v-if="activetab=='allTab'">
                 <AllTab/>
             </div>
@@ -81,7 +81,7 @@ function tab(id) {
 
         </div>
     </div>
-    <div class="max-w-7xl mx-auto pt-24 pb-12">
+    <div class="max-w-6xl mx-auto pt-24 pb-12">
       <InfoContainer/>
     </div>
 </div>

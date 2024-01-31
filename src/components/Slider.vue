@@ -85,6 +85,6 @@ const modules = [Navigation, Pagination, Scrollbar, A11y, Autoplay];
 }
 .img-style {
   width: 100vw;
-  height: 400px;
+  height: 300px;
 }
 </style>

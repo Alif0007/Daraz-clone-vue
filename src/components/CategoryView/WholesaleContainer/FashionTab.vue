@@ -4,7 +4,7 @@ import JustForYouContainerCard from "@/components/JustForYouContainerCard.vue";
 
 <template>
   <div>
-    <div class="grid grid-cols-5 gap-4 mb-4">
+    <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 mb-4">
       <JustForYouContainerCard
         ImgUrl="https://static-01.daraz.com.bd/p/12b7f829ef3b333034a4b0bc9690e5d3.jpg_460x460q75.jpg_.webp"
         title="Levin Premium Quality Pack Of % Cotton Lace Panties"
@@ -46,7 +46,7 @@ import JustForYouContainerCard from "@/components/JustForYouContainerCard.vue";
         reviews="144"
       />
     </div>
-    <div class="grid grid-cols-5 gap-4 mb-4">
+    <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 mb-4">
       <JustForYouContainerCard
         ImgUrl="https://static-01.daraz.com.bd/p/db4ac0f3e2961c145a8109efbb4328d8.jpg_460x460q75.jpg_.webp"
         title="New Trendy Look Very Stylish Black Sunglass For Men"
@@ -88,7 +88,7 @@ import JustForYouContainerCard from "@/components/JustForYouContainerCard.vue";
         reviews="28"
       />
     </div>
-    <div class="grid grid-cols-5 gap-4 mb-4">
+    <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 mb-4">
       <JustForYouContainerCard
         ImgUrl="https://static-01.daraz.com.bd/p/a48e5363991cc9ab673b36c9cf2eeced.jpg_460x460q75.jpg_.webp"
         title="Motor Bike & Car's Licensee Document Holder"

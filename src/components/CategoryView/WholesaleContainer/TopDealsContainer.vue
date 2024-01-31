@@ -6,7 +6,7 @@ import TopDealsCard from "@/components/CategoryView/WholesaleContainer/TopDealsC
   <div>
     <div>
       <h1 class="text-3xl font-semibold mb-2 ml-4 mb-8">Top Deals</h1>
-      <div class="grid grid-cols-6">
+      <div class="grid grid-cols-2 sm:grid-cols-6">
         <TopDealsCard
           imgUrl="https://static-01.daraz.com.bd/p/3e5caab442e3678e447a77494c4846b3.jpg_400x400q75.jpg_.webp"
           title="Good Quality Cotton Hooded Towel"

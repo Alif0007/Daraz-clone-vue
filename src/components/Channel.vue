@@ -14,7 +14,7 @@ function catWholeSale() {
 
 <template>
   <div
-    class="flex gap-4 rounded-lg mt-8 bg-white px-4 pt-2"
+    class=" grid grid-cols-4 md:grid-cols-9  gap-4 rounded-lg mt-8 bg-white px-4 pt-2"
     @click="catWholeSale"
   >
     <ChannelCard

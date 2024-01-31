@@ -11,7 +11,7 @@ import OrderSummary from '@/components/AddToCart/OrderSummary.vue';
         <div>
             <Header/>
         </div>
-        <div class="pt-28 flex max-w-7xl mx-auto">
+        <div class="pt-28 block sm:flex max-w-6xl mx-auto">
             <div>
                 <ProductDetails/>
             </div>

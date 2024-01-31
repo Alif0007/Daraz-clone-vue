@@ -20,12 +20,12 @@ function loginRoute(){
 
 <template>
   <div class="fixed bg-orange w-full z-10">
-    <div class="flex text-white max-w-7xl mx-auto gap-8 text-xs">
+    <div class=" hidden sm:flex text-white max-w-6xl mx-auto gap-8 text-xs">
       <p>Become a Seller</p>
       <p>Daraz Donate</p>
       <p>Help & Support</p>
     </div>
-    <div class="flex justify-between max-w-7xl mx-auto py-4">
+    <div class="flex justify-between max-w-6xl mx-auto py-4">
       <div class="flex items-center gap-6">
         <div @click="homeRoute" class="cursor-pointer">
 
@@ -36,7 +36,7 @@ function loginRoute(){
           />
         </div>
         <input
-          class="outline-0 pl-6 width-search-bar rounded-xl"
+          class="hidden sm:block outline-0 pl-6 width-search-bar rounded-xl"
           type="text"
           placeholder="Search In Daraz"
         />
@@ -44,14 +44,14 @@ function loginRoute(){
       <div class="flex text-white gap-4">
         <div @click="loginRoute" class="flex items-center gap-1 px-2 login-style">
           <ion-icon class="text-lg" name="person-outline"></ion-icon>
-          <p class="text-xs font-bold">Login</p>
+          <p class="hidden sm:block text-xs font-bold">Login</p>
         </div>
         <div class="flex items-center">l</div>
         <div class="flex items-center">
-          <p class="text-xs font-bold">Sign Up</p>
+          <p class=" text-xs font-bold">Sign Up</p>
         </div>
 
-        <div class="flex items-center gap-1">
+        <div class="hidden sm:flex items-center gap-1">
           <ion-icon class="text-lg" name="globe-outline"></ion-icon>
           <p class="text-xs font-bold">EN</p>
           <ion-icon name="arrow-down-outline"></ion-icon>
