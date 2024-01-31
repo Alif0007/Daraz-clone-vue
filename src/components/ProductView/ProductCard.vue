@@ -33,7 +33,7 @@ Quantity.value--
         <div class="w-full sm:w-1/4">
             <ProductSlider />
         </div>
-                <div class="bg-white w-full sm:w-2/4 pl-6">
+                <div class="bg-white w-full sm:w-2/4 pl-4 pr-4">
                     <h1 class="text-2xl mb-2">BUY 1 Realman Body Spray MORNING 150ml + GET 1 Realman Body Spray MORNING 150ml FREE</h1>
                     <div class="flex gap-2 mb-2 items-center">
                         <div class="flex">
@@ -67,8 +67,8 @@ Quantity.value--
                     <p @click="increase" class="cursor-pointer text-lg py-1 px-3 bg-gray-200">+</p>
                 </div>
                 <div class="flex gap-2 mt-6">
-                    <p class="cursor-pointer px-3 sm:px-20  py-3 font-medium text-white bg-blue-500 hover:bg-blue-400 rounded-sm text-lg">Buy Now</p>
-                    <p @click="AddToCart" class="cursor-pointer px-3 sm:px-20 py-3 font-medium text-white bg-orange hover:bg-yellow-500 rounded-sm text-lg">Add To Cart</p>
+                    <p class="cursor-pointer px-3 sm:px-16 py-3 font-medium text-white bg-blue-500 hover:bg-blue-400 rounded-sm text-lg">Buy Now</p>
+                    <p @click="AddToCart" class="cursor-pointer px-3 sm:px-16 py-3 font-medium text-white bg-orange hover:bg-yellow-500 rounded-sm text-lg">Add To Cart</p>
                 </div>
                     
                 </div>
