@@ -4,7 +4,7 @@ import JustForYouContainerCard from '../JustForYouContainerCard.vue';
 
 <template>
 
-    <div class="flex-col sm:flex gap-4 mt-4">
+    <div class="lg:flex xs:block gap-4 mt-4">
         <div class="bg-white pl-4 w-full sm:w-4/5 h-full pb-10">
         <h1 class="pl-4 my-4 font-medium">Ratings & Reviews</h1>
         <div class="flex gap-12">
