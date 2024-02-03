@@ -11,11 +11,11 @@ import OrderSummary from '@/components/AddToCart/OrderSummary.vue';
         <div>
             <Header/>
         </div>
-        <div class="pt-28 block sm:flex max-w-6xl mx-auto">
-            <div>
+        <div class="flex  pt-28 block sm:flex max-w-6xl mx-auto">
+            <div class="w-8/12">
                 <ProductDetails/>
             </div>
-            <div class="w-96">
+            <div class="w-4/12">
                 <OrderSummary/>
             </div>
         </div>

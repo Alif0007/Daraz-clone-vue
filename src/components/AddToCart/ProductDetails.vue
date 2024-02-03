@@ -56,8 +56,8 @@ Quantity.value--
                         </div>
                         <p class="text-gray-600 text-base mb-4">-27%</p>
                         <div class="flex gap-3">
-                            <img class="h-6 mt-0.5" src="E:\Vue Templates\Daraz\src\assets\Add-To-Cart\heart.png" alt="">
-                            <img class="h-6  " src="E:\Vue Templates\Daraz\src\assets\Add-To-Cart\delete-button.png" alt="">
+                            <img class="h-6 mt-0.5 cursor-pointer" src="E:\Vue Templates\Daraz\src\assets\Add-To-Cart\heart.png" alt="">
+                            <img class="h-6 cursor-pointer " src="E:\Vue Templates\Daraz\src\assets\Add-To-Cart\delete-button.png" alt="">
                         </div>
                     </div>
                     <div class="flex mr-12 mt-8 px-6">

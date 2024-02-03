@@ -25,7 +25,7 @@ const props = defineProps([
 
 <template>
   <div @click="productView">
-    <div class="flash-card pb-4 bg-white cursor-pointer">
+    <div class="flash-card h-full pb-4 bg-white cursor-pointer">
       <img class="h-48 w-full mb-4" :src="ImgUrl" alt="" />
       <p class="text-base pl-2">{{ title }}</p>
       <div class="flex pl-2 items-baseline">
